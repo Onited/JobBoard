@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Yrsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suwannaphum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    @apply bg-white dark:bg-black text-black dark:text-white;
+    font-family: 'Noticia Text', serif;
+}
+
+.job-ad {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.job-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.job-description {
+    margin-bottom: 10px;
+}
+
+.job-type {
+    margin-bottom: 10px;
+}
+.learn-more-btn {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.titre {
+    font-family: 'Yrsa', serif;
+}
+
+.sous-titre {
+    font-family: 'Suwannaphum', serif;
+}
+
+input {
+    background-color: #F0F4EF;
+    color: #344966;
+}
+
+select {
+    background-color: #F0F4EF;
+    color: #344966;
+}
+
+.bg-baby-powder {
+    background-color: #F0F4EF;
+}
+
+.bg-rich-black {
+    background-color: #0D1821;
+}
+
+.bg-indigo-dye {
+    background-color: #344966;
+}
+
+.bg-indigo-dye-darker:hover {
+    background-color: #243347;
+}
+
+.col-baby-powder {
+    color: #F0F4EF;
+}
+
+.col-indigo-dye {
+    color: #344966;
+}
+
+.form-width {
+    width: 45rem;
+}
+
+.form-padding {
+    padding: 8rem;
+    /* height: 40rem; */
+}
+
+.label-input-width {
+    width: 16rem;
+}
