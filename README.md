@@ -36,5 +36,17 @@ npm install
 # Démarrer le serveur de développement
 npm run dev
 ```
+
+## Tests
+
+Les tests unitaires pour l'API sont écrits en utilisant pytest, garantissant que toutes les fonctionnalités répondent aux attentes et fonctionnent comme prévu.
+
+Pour exécuter les tests :
+
+```bash
+cd backend
+pytest
+```
+
 ## Remerciements
 - Un grand merci à [Allrito](https://github.com/Allrito) pour sa contribution significative au développement du front-end de ce projet.
